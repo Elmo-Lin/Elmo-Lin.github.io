@@ -46,11 +46,8 @@
 											<h2>About Me</h2>
 										</header>
 										<p>I'm Meng-Syuan Lin an incoming M.S. student in the Department of Computer Science at NCU, advised by professor Fu-Hau Hsu, and joined the Advanced Defense Laboratory.
-											Recently, I am looking for internship opportunities before going to graduate school
-											</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
+											
+										</p>
 									</div>
 									<span class="image"><img src="images/Elmo1.jpg" alt="" /></span>
 								</div>
@@ -70,6 +67,8 @@
 										<div class="col-7 col-12-medium">
 												<p style=text-align:left;><b>M.S. in Computer Science
 												</br>National Central University, </b><i>Sept. 2022 - </i>
+												</br>GPA 4.19/4.3</b>
+												</br>Teaching Assistant: “Programming Language”, “Linux Operating System”</b><i>
 												</br><a href="https://adl.tw/" style="color: darkred;">Advanced Defense Lab</a>
 												</br>Advisor: Prof. <b><a href="https://staff.csie.ncu.edu.tw/hsufh/" style="color: darkred;">Fu-Hau Hsu</a></b>
 												</p>	
@@ -99,14 +98,31 @@
 								<ul class='feature'>
 									<div class="row">
 										<div class="col-2 col-12-medium">
+												<p><span class="icon brand style2" ><img src="images/HPE.png" alt="" style="width:70%"></span></p>
+										</div>
+										<div class="col-7 col-12-medium">
+												<p style=text-align:left;><b>Hewlett Packard Enterprise - System Software Engineer Intern, </b><i>July. 2023 -</i>
+												<ul>
+													<li style=text-align:left;>Linux Enablement team, Firmware and OS Engineering
+													<li style=text-align:left;>Developed an automation tool for testing the operating systems including Ubuntu, RedHat, CentOS and Citrix
+													<li style=text-align:left;>Developed an automation tool that can analyze the logs of the system boot process and capture useful information from 30,000+ lines
+												</ul>
+												</p>
+										</div>
+									</div>
+								</ul>
+
+								<ul class='feature'>
+									<div class="row">
+										<div class="col-2 col-12-medium">
 												<p><span class="icon brand style2" ><img src="images/intel.png" alt="" style="width:70%"></span></p>
 										</div>
 										<div class="col-7 col-12-medium">
-												<p style=text-align:left;><b>Intel Corporation - Software and Data Analytic Intern, </b><i>July. 2022 -</i>
+												<p style=text-align:left;><b>Intel Corporation - Software and Data Analytic Intern, </b><i>July. 2022 - Jun. 2023</i>
 												<ul>
 													<li style=text-align:left;>Platform Architecture Infrastructure Validation team, Data Center & AI department
-													<li style=text-align:left;>Developed automation tool for setting environment and run scripts on 200+ servers, and reducing time by 90% (Python)
-													<li style=text-align:left;>Developed a data dashboard to visualizing the issue data
+													<li style=text-align:left;>Developed automation tool for setting environment and run scripts on 50+ servers and reducing time by 90%
+													<li style=text-align:left;>Collaborated with HW engineers to visualize departmental issues, enabling the identification of weekly trends
 												</ul>
 												</p>
 										</div>
@@ -122,9 +138,9 @@
 												<p style=text-align:left;><b>Microsoft Corporation - Software Engineer Intern, </b><i>July. 2020 - Jun. 2021</i>
 												<ul>
 													<li style=text-align:left;>Project management team, Cloud Hardware Manufacturing Engineering department
-													<li style=text-align:left;>Fetched data from DevOps platform to build automation tool driving supplier's performance
-													<li style=text-align:left;>Data visualization and analysis on supplier's checklist
-													<li style=text-align:left;>Microsoft Campus Ambassador
+													<li style=text-align:left;>Developed alert service for driving supplier's performance (Python)
+													<li style=text-align:left;>Developed the dashboard for data visualization and analysis on 100+ deliveries of checklist with PMs
+													<li style=text-align:left;>Served as a Microsoft Student Ambassador, responsible for sharing internship experiences on campus and organizing workshops for undergraduate students
 												</ul>
 												</p>
 										</div>
@@ -134,14 +150,54 @@
 							</section>
 
 						<!-- Projects -->
-							<section id="cta" class="main special">
-								<header class="major">
-									<h2>Projects</h2>
-									<p>empty</p>
-								</header>
-								
-							</section>
+						<section id="cta" class="main special">
+							<header class="major">
+								<h2>Projects</h2>
+							</header>
+
+							<ul class='feature'>
+								<div class="row">
+									<div class="col-2 col-12-medium">
+											<p><span class="icon brand style2" ><img src="images/project.png" alt="" style="width:70%"></span></p>
+									</div>
+									<div class="col-7 col-12-medium">
+											<p style=text-align:left;><b>Protect Remote Files in Linux, </b><i>June 2023 -</i>
+											<ul>
+												<li style=text-align:left;>It addressed the security concerns of company WFH policies
+												<li style=text-align:left;>This is an operating system that restricts remote users from accessing files
+												<li style=text-align:left;>Put important file paths in the ban list so that remote users cannot access files in these paths
+												<li style=text-align:left;>Only when you back to the company, you can access files on the host computer
+												<li style=text-align:left;>Based on not affecting the operation of the operating system, the remote IP is checked through the socket in the OS kernel to restrict remote users
+												<li style=text-align:left;>Tool: C language, Linux Kernel (socket), virtual machine on GCP
+											</ul>
+											</p>
+									</div>
+								</div>
+							</ul>
+
+							<ul class='feature'>
+								<div class="row">
+									<div class="col-2 col-12-medium">
+											<p><span class="icon brand style2" ><img src="images/project.png" alt="" style="width:70%"></span></p>
+									</div>
+									<div class="col-7 col-12-medium">
+											<p style=text-align:left;><b>Operating System Design & Implementation (Bare Programming), </b><i>Feb. 2023 - June 2023</i>
+											<ul>
+												<li style=text-align:left;>Developed a simple shell on rpi3b and a UART bootloader
+												<li style=text-align:left;>Developed simple allocator & Buddy system
+												<li style=text-align:left;>Developed a scheduler through the way of Round Robin
+												<li style=text-align:left;>Tool: ARM, C language, Linux environment, rpi3b
+											</ul>
+											</p>
+									</div>
+								</div>
+							</ul>
+
+						</section>
+
+					
 						<!-- Extra Activites -->
+					<!--
 						<section id="cta1" class="main special">
 							<header class="major">
 								<h2>Extra Activites</h2>
@@ -175,8 +231,9 @@
 									</div>
 								</div>
 							</ul>
-
 						</section>
+					-->
+					
 
 					</div>
 
