@@ -243,6 +243,12 @@
 		<script>
 			document.getElementById('year').textContent = new Date().getFullYear();
 
+			// Stop the sticky nav from covering a section after clicking a nav link
+			const nav = document.querySelector('.nav');
+			const setNavHeight = () => document.documentElement.style.setProperty('--nav-h', nav.offsetHeight + 'px');
+			setNavHeight();
+			addEventListener('resize', setNavHeight);
+
 			// Highlight the nav link of the section currently in view
 			const links = document.querySelectorAll('.nav a');
 			const observer = new IntersectionObserver((entries) => {
